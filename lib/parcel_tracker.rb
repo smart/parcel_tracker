@@ -1,3 +1,13 @@
+require 'rubygems'
+require 'builder'
+require 'yaml'
+require 'rexml/document'
+require 'net/http'
+require 'net/https'
+require 'base64'
+require 'fileutils'
+require 'tempfile'
+
 module ParcelTracker
   VERSION = "0.1.0"
 
